@@ -16,6 +16,7 @@
 		DC3F00832BBAEBF1003EAB39 /* advanced_codables_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F00822BBAEBF1003EAB39 /* advanced_codables_demoTests.swift */; };
 		DC3F008D2BBAEBF1003EAB39 /* advanced_codables_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F008C2BBAEBF1003EAB39 /* advanced_codables_demoUITests.swift */; };
 		DC3F008F2BBAEBF1003EAB39 /* advanced_codables_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3F008E2BBAEBF1003EAB39 /* advanced_codables_demoUITestsLaunchTests.swift */; };
+		DC3F009D2BBAEC06003EAB39 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = DC3F009C2BBAEC06003EAB39 /* mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DC3F00882BBAEBF1003EAB39 /* advanced-codables-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "advanced-codables-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3F008C2BBAEBF1003EAB39 /* advanced_codables_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advanced_codables_demoUITests.swift; sourceTree = "<group>"; };
 		DC3F008E2BBAEBF1003EAB39 /* advanced_codables_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = advanced_codables_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC3F009C2BBAEC06003EAB39 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DC3F006A2BBAEBF0003EAB39 /* advanced-codables-demo */ = {
 			isa = PBXGroup;
 			children = (
+				DC3F009B2BBAEBF9003EAB39 /* Mock */,
 				DC3F006B2BBAEBF0003EAB39 /* AppDelegate.swift */,
 				DC3F006D2BBAEBF0003EAB39 /* SceneDelegate.swift */,
 				DC3F006F2BBAEBF0003EAB39 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				DC3F008E2BBAEBF1003EAB39 /* advanced_codables_demoUITestsLaunchTests.swift */,
 			);
 			path = "advanced-codables-demoUITests";
+			sourceTree = "<group>";
+		};
+		DC3F009B2BBAEBF9003EAB39 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F009C2BBAEC06003EAB39 /* mock.json */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				DC3F00752BBAEBF0003EAB39 /* Assets.xcassets in Resources */,
 				DC3F00782BBAEBF0003EAB39 /* Base in Resources */,
 				DC3F00732BBAEBF0003EAB39 /* Base in Resources */,
+				DC3F009D2BBAEC06003EAB39 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
